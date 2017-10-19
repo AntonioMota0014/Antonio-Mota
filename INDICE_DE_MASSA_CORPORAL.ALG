@@ -1,12 +1,12 @@
 Algoritmo "Indice_de_massa_corporal"
-// Autor(a)    : António Mota
+// Autor(a)    : AntÃ³nio Mota
 // Data atual  : 19/10/2017
 Var
 peso,altura,IMC: real
 Inicio
-escreva("Qual é o peso:")
+escreva("Qual Ã© o peso:")
 leia(peso)
-escreva("Qual é a altura:")
+escreva("Qual Ã© a altura:")
 leia(altura)
 IMC<- peso/(altura*altura)
 se IMC< 16 entao
@@ -31,7 +31,7 @@ se IMC< 40 entao
   escreva("Obesidade Grau II(severa)")
   senao
 se IMC> 40 entao
-  escreva("Obesidade Grau III(mórbida)")
+  escreva("Obesidade Grau III(mÃ³rbida)")
 
 Fimse
 Fimse
@@ -41,4 +41,5 @@ Fimse
 Fimse
 Fimse
 Fimse
+escreva ("O indice de massa corporal Ã©",IMC)
 Fimalgoritmo
